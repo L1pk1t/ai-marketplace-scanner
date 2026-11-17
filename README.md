@@ -91,12 +91,7 @@ python avito_dashboard.py
 
 ## Скриншоты
 
-Положите изображения в папку `docs/` и подключите здесь, например:
-
-```markdown
-![Лента находок](docs/feed.png)
-![База знаний](docs/knowledge-base.png)
-```
+![DEMO](docs/DEMO.png)
 
 ## Дисклеймер
 
