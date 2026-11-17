@@ -1,0 +1,44 @@
+# Секреты и личные настройки
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.dash_secret
+dash_password.txt
+avito_config.json
+
+# Данные программы: базы, кэш фото, профиль браузера (куки и сессия Авито)
+data/
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+cache_img/
+cache_img_demo/
+avito_browser_profile/
+browser_profile/
+
+# Логи
+*.log
+logs/
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+
+# Личные списки поисков (образец — searches.example.txt)
+searches.txt
+searches_*.txt
+!searches.example.txt
+
+# Системное и редакторы
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.zip
